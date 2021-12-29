@@ -1,0 +1,11 @@
+.home {
+  &__logo {
+    text-align: center;
+    background-color: $blueDuck;
+    img {
+      margin-top: 140px;
+      margin-bottom: 100px;
+      width: 27em;
+    }
+  }
+}
