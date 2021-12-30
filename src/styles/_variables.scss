@@ -1,5 +1,5 @@
 // FONTS
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @font-face {
   font-family: "Gobold Thin Light";
   src: url("../fonts/Gobold_Light.eot?") format("eot"),
@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-$principalFont: "Playfair Display", serif;
+$principalFont: "Open Sans";
 $titleFont: "Gobold Thin Light";
 
 // COLORS

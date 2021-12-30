@@ -25,9 +25,44 @@
   }
 
   &__projects {
-    width: 30vw;
+    width: 35vw;
     height: 40vh;
     box-shadow: 0 0 1em #cccccc;
     margin-top: 3em;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      opacity: 1;
+    }
+
+    p {
+      color: white;
+      font-weight: bold;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      opacity: 0;
+      z-index: 100;
+      transform: translate(-50%, -50%);
+      transition: 0.5s;
+      text-align: justify;
+      width: 70%;
+      transition: 0.5s;
+    }
+  }
+
+  &__projects:hover {
+    img {
+      opacity: 0.3;
+    }
+
+    p {
+      opacity: 1;
+    }
   }
 }

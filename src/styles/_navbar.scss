@@ -7,6 +7,7 @@
   background-color: $blueDuck;
   position: fixed;
   border-bottom: dotted 0.1px $greyNavbar;
+  z-index: 1;
 
   &__logo {
     height: 7vh;

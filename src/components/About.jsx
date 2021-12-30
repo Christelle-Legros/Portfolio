@@ -7,17 +7,39 @@ const About = () => {
     <div className="about" id="about">
       <p className="about__title">Qui suis-je ?</p>
       <div className="about__text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam deserunt
-        officia nam, voluptatibus temporibus ad, explicabo corrupti sint, totam
-        alias iure veritatis repellat debitis pariatur doloremque adipisci sed
-        necessitatibus exercitationem sunt numquam? Odit obcaecati eveniet,
-        dicta adipisci quo suscipit facilis autem asperiores, ducimus, deserunt
-        amet modi et minima maxime? Magnam, alias nihil amet quasi quis
-        explicabo facere nobis provident, enim obcaecati vel accusamus
-        accusantium hic illum quibusdam ducimus maiores est! Officiis
-        accusantium facilis ullam pariatur porro cumque iure necessitatibus
-        labore?
-        <p>Les technologies que j'utilise : ....</p>
+        <p>
+          Après 21 années en tant qu'assistante du service technique d'un
+          laboratoire pharmaceutique au Pays-Basque, il était temps de donner un
+          nouveau souffle à ma carrière, dans un domaine qui me fait vibrer
+          depuis toujours : l'informatique.
+        </p>
+        <br />
+        <p>
+          Virage à 90° en 2021 : je m'engage pleinement dans une reconversion
+          professionnelle dans le développement web. <br />
+          Au sein de la Wild Code School, je suis une formation aussi intense et
+          exigeante que passionnante.
+        </p>
+        <br />
+        <p>La suite, c'est avec vous que je vais l'écrire...</p> <br />
+        <p>
+          Les technologies que j'utilise :
+          <ul>
+            <li>
+              <span className="subtitles">Côté frontend :</span> HTML - CSS et
+              SASS - Javascript - ReactJs
+            </li>
+            <li>
+              <span className="subtitles">Côté backend : </span>MySql - Express
+              - NodeJs
+            </li>
+            <li>
+              <span className="subtitles">Autres outils : </span>GitHub -
+              Postman - VsCode...
+            </li>
+          </ul>
+        </p>{" "}
+        <br />
         <p>
           Mais bien évidemment, je suis prête à travailler sur toute nouvelle
           technologie !
