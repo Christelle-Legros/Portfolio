@@ -28,3 +28,14 @@ $blueDuck: rgb(26, 83, 92);
   padding-top: 0.8em;
   padding-bottom: 0.8em;
 }
+
+@mixin sectionTitleMobile {
+  font-family: $titleFont;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  letter-spacing: 0.2rem;
+  writing-mode: horizontal-tb;
+  text-orientation: sideways;
+}

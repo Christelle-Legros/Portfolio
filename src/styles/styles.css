@@ -63,6 +63,15 @@
   color: #bfa733;
 }
 
+@media screen and (max-width: 700px) {
+  .navbar {
+    font-size: 0.8em;
+  }
+  .navbar__logo {
+    display: none;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -82,6 +91,14 @@ a {
   margin-top: 140px;
   margin-bottom: 100px;
   width: 27em;
+}
+
+@media screen and (max-width: 700px) {
+  .home__logo img {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    max-width: 80vw;
+  }
 }
 
 .about {
@@ -139,6 +156,43 @@ a {
           filter: grayscale(1);
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
+}
+
+@media screen and (max-width: 700px) {
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about__title {
+    font-family: "Gobold Thin Light";
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    letter-spacing: 0.2rem;
+    -webkit-writing-mode: horizontal-tb;
+        -ms-writing-mode: lr-tb;
+            writing-mode: horizontal-tb;
+    text-orientation: sideways;
+    color: #1a535c;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .about__text {
+    padding: 1em;
+  }
+  .about__cvVisuel {
+    margin-bottom: 4em;
+  }
+  .about__cvVisuel img {
+    text-align: center;
+    width: 40%;
+  }
 }
 
 .realisations {
@@ -211,14 +265,12 @@ a {
   left: 50%;
   top: 50%;
   opacity: 0;
-  z-index: 100;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-align: justify;
   width: 70%;
-  transition: 0.5s;
 }
 
 .realisations__projects:hover img {
@@ -227,6 +279,74 @@ a {
 
 .realisations__projects:hover p {
   opacity: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .realisations {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .realisations__title {
+    font-family: "Gobold Thin Light";
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    letter-spacing: 0.2rem;
+    -webkit-writing-mode: horizontal-tb;
+        -ms-writing-mode: lr-tb;
+            writing-mode: horizontal-tb;
+    text-orientation: sideways;
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .realisations__projectsContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+  .realisations__projects {
+    width: 90vw;
+    height: 40vh;
+    -webkit-box-shadow: 0 0 1em #cccccc;
+            box-shadow: 0 0 1em #cccccc;
+    margin-top: 2em;
+    -o-object-fit: cover;
+       object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    z-index: 20;
+    margin-bottom: 4em;
+  }
+  .realisations__projects p {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 1%;
+    top: 100%;
+    opacity: 1;
+    z-index: 1;
+    -webkit-transform: translate(1px, 1px);
+            transform: translate(1px, 1px);
+    text-align: justify;
+    width: 90%;
+  }
+  .realisations__projects a {
+    opacity: 0;
+  }
 }
 
 .contact {
@@ -289,5 +409,46 @@ a {
 .contact__logos img {
   width: 2.7em;
   margin-right: 2em;
+}
+
+@media screen and (max-width: 700px) {
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact__title {
+    font-family: "Gobold Thin Light";
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    letter-spacing: 0.2rem;
+    -webkit-writing-mode: horizontal-tb;
+        -ms-writing-mode: lr-tb;
+            writing-mode: horizontal-tb;
+    text-orientation: sideways;
+    color: #1a535c;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .contact__social {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .contact__logos {
+    margin-top: 2em;
+    font-size: 0.8em;
+  }
+  .contact__logos img {
+    width: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

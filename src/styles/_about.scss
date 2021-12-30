@@ -38,3 +38,29 @@
     }
   }
 }
+
+// Media queries
+@media screen and (max-width: 700px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      @include sectionTitleMobile;
+      color: $blueDuck;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+    &__text {
+      padding: 1em;
+    }
+
+    &__cvVisuel {
+      margin-bottom: 4em;
+      img {
+        text-align: center;
+        width: 40%;
+      }
+    }
+  }
+}

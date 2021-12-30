@@ -41,3 +41,35 @@
     }
   }
 }
+
+// Media queries
+@media screen and (max-width: 700px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      @include sectionTitleMobile;
+      color: $blueDuck;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+
+    &__social {
+      text-align: center;
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    &__logos {
+      margin-top: 2em;
+      font-size: 0.8em;
+
+      img {
+        width: 2em;
+        margin-right: 1em;
+        margin-left: 1em;
+      }
+    }
+  }
+}
