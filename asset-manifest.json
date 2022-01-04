@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9ba49c54.chunk.css",
-    "main.js": "/Portfolio/static/js/main.e8b848cc.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.e8b848cc.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.40022420.chunk.css",
+    "main.js": "/Portfolio/static/js/main.3e9ea88b.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.3e9ea88b.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c65a14fc.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c65a14fc.js.map",
     "static/js/2.9d075b12.chunk.js": "/Portfolio/static/js/2.9d075b12.chunk.js",
     "static/js/2.9d075b12.chunk.js.map": "/Portfolio/static/js/2.9d075b12.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.9ba49c54.chunk.css.map": "/Portfolio/static/css/main.9ba49c54.chunk.css.map",
+    "static/css/main.40022420.chunk.css.map": "/Portfolio/static/css/main.40022420.chunk.css.map",
     "static/js/2.9d075b12.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.9d075b12.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/Portfolio/static/media/Gobold_Light.f0397f06.svg",
     "static/media/LiveUpVisuel.22bd115b.png": "/Portfolio/static/media/LiveUpVisuel.22bd115b.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.c65a14fc.js",
     "static/js/2.9d075b12.chunk.js",
-    "static/css/main.9ba49c54.chunk.css",
-    "static/js/main.e8b848cc.chunk.js"
+    "static/css/main.40022420.chunk.css",
+    "static/js/main.3e9ea88b.chunk.js"
   ]
 }
