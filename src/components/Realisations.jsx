@@ -18,7 +18,7 @@ const Realisations = () => {
 
             <p>
               Projet 2 Wild Code School : création d'un quiz et d'un memory avec
-              ReactJs en faisant appel à une API
+              ReactJs en faisant appel à une API.
             </p>
           </a>
         </div>
@@ -44,7 +44,7 @@ const Realisations = () => {
           <img src={LuneticVisuel} alt="Screenshot Lunetic" />
           <p>
             Projet en cours pour un vrai client : création d'un site fullstack
-            avec utilisation de ReactJs, Express, MySql, Sass.
+            avec utilisation de ReactJs, Typescript, Express, MySql, Sass.
           </p>
         </div>
       </div>
