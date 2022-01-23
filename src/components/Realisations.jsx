@@ -34,8 +34,8 @@ const Realisations = () => {
           >
             <img src={LiveUpVisuel} alt="Screenshot Live Up" />
             <p>
-              Hackaton 30 heures environ : création d'un site fullstack avec :
-              ReactJs pour le front, Express pour le back et MySql pour la bdd.
+              Hackaton 30h environ : création d'un site fullstack avec : ReactJs
+              pour le front, Express pour le back et MySql pour la bdd.
             </p>
           </a>
         </div>
