@@ -1,6 +1,6 @@
 import React from "react";
-import cvVisuel from "../assets/cvVisuel21.png";
-import cv from "../assets/cv_2021.pdf";
+import cvVisuel from "../assets/cvVisuel22.png";
+import cv from "../assets/cv_2022.pdf";
 
 const About = () => {
   return (

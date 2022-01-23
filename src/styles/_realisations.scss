@@ -5,6 +5,7 @@
   grid-template-columns: 20% 80%;
   align-items: center;
   justify-items: center;
+  object-fit: contain;
 
   &__title {
     @include sectionTitle;
