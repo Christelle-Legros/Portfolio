@@ -14,8 +14,10 @@ const Contact = () => {
         <br />
         <p>
           Pour m'écrire :<br />
-          <a href="mailto:christelle.legros80@sfr.fr">
-            <span className="mail">&#x1F4E7; christelle.legros80@sfr.fr</span>
+          <a href="mailto:christelle.legros80@gmail.com">
+            <span className="mail">
+              &#x1F4E7; christelle.legros80@gmail.com
+            </span>
           </a>
         </p>
       </div>
