@@ -41,11 +41,17 @@ const Realisations = () => {
         </div>
 
         <div className="realisations__projects" id="luneticProject">
-          <img src={LuneticVisuel} alt="Screenshot Lunetic" />
-          <p>
-            Projet en cours pour un vrai client : création d'un site fullstack
-            avec utilisation de ReactJs, Typescript, Express, MySql, Sass.
-          </p>
+          <a
+            href="https://https://lunetic.fr/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={LuneticVisuel} alt="Screenshot Lunetic" />
+            <p>
+              Projet 3 Wild Code School : création d'un site fullstack avec
+              utilisation de ReactJs, Typescript, Express, MySql, Sass.
+            </p>
+          </a>
         </div>
       </div>
     </div>
