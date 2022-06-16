@@ -41,11 +41,7 @@ const Realisations = () => {
         </div>
 
         <div className="realisations__projects" id="luneticProject">
-          <a
-            href="https://https://lunetic.fr/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://lunetic.fr/" target="_blank" rel="noreferrer">
             <img src={LuneticVisuel} alt="Screenshot Lunetic" />
             <p>
               Projet 3 Wild Code School : création d'un site fullstack avec
