@@ -82,22 +82,38 @@ a {
   text-decoration: none;
 }
 
-.home__logo {
+.home {
   text-align: center;
-  background-color: #1a535c;
+  height: 100vh;
 }
 
-.home__logo img {
-  margin-top: 140px;
-  margin-bottom: 100px;
+.home img {
   width: 27em;
+  -webkit-transform: translateY(-135%);
+          transform: translateY(-135%);
+}
+
+.home__backvideo video {
+  width: 98.9vw;
+  height: 100vh;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 @media screen and (max-width: 700px) {
-  .home__logo img {
+  .home {
+    height: 100%;
+    background-color: #1a535c;
+  }
+  .home img {
     margin-top: 4em;
     margin-bottom: 4em;
     max-width: 80vw;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .home__backvideo {
+    display: none;
   }
 }
 
