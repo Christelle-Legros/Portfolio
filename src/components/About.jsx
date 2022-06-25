@@ -9,7 +9,7 @@ const About = () => {
       <p className="about__title">Qui suis-je ?</p>
       <div className="about__text">
         <p>
-          <TypeWriterEffect
+          {/* <TypeWriterEffect
             textStyle={{ fontSize: "1em" }}
             startDelay={100}
             cursorColor="black"
@@ -19,7 +19,11 @@ const About = () => {
             depuis toujours : l'informatique."
             typeSpeed={100}
             // scrollArea={myAppRef}
-          />
+          /> */}
+          Après 21 années en tant qu'assistante du service technique d'un
+          laboratoire pharmaceutique au Pays-Basque, il était temps de donner un
+          nouveau souffle à ma carrière, dans un domaine qui me fait vibrer
+          depuis toujours : l'informatique.
         </p>
         <br />
         <p>
