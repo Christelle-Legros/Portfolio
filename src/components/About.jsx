@@ -1,6 +1,7 @@
 import React from "react";
 import cvVisuel from "../assets/cvVisuel22.png";
 import cv from "../assets/cv_2022.pdf";
+import TypeWriterEffect from "react-typewriter-effect";
 
 const About = () => {
   return (
@@ -8,10 +9,17 @@ const About = () => {
       <p className="about__title">Qui suis-je ?</p>
       <div className="about__text">
         <p>
-          Après 21 années en tant qu'assistante du service technique d'un
-          laboratoire pharmaceutique au Pays-Basque, il était temps de donner un
-          nouveau souffle à ma carrière, dans un domaine qui me fait vibrer
-          depuis toujours : l'informatique.
+          <TypeWriterEffect
+            textStyle={{ fontSize: "1em" }}
+            startDelay={100}
+            cursorColor="black"
+            text="Après 21 années en tant qu'assistante du service technique d'un
+            laboratoire pharmaceutique au Pays-Basque, il était temps de donner un
+            nouveau souffle à ma carrière, dans un domaine qui me fait vibrer
+            depuis toujours : l'informatique."
+            typeSpeed={100}
+            // scrollArea={myAppRef}
+          />
         </p>
         <br />
         <p>
