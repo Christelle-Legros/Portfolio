@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.c3dfdc3f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.01d81c0b.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.01d81c0b.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.7ed670a3.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.7ed670a3.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c65a14fc.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c65a14fc.js.map",
-    "static/js/2.4a74ac10.chunk.js": "/Portfolio/static/js/2.4a74ac10.chunk.js",
-    "static/js/2.4a74ac10.chunk.js.map": "/Portfolio/static/js/2.4a74ac10.chunk.js.map",
+    "static/js/2.8723c906.chunk.js": "/Portfolio/static/js/2.8723c906.chunk.js",
+    "static/js/2.8723c906.chunk.js.map": "/Portfolio/static/js/2.8723c906.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/main.c3dfdc3f.chunk.css.map": "/Portfolio/static/css/main.c3dfdc3f.chunk.css.map",
-    "static/js/2.4a74ac10.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.4a74ac10.chunk.js.LICENSE.txt",
+    "static/js/2.8723c906.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.8723c906.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/Portfolio/static/media/Gobold_Light.f0397f06.svg",
     "static/media/LiveUpVisuel.22bd115b.png": "/Portfolio/static/media/LiveUpVisuel.22bd115b.png",
     "static/media/LuneticVisuel.1c61a1b9.png": "/Portfolio/static/media/LuneticVisuel.1c61a1b9.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c65a14fc.js",
-    "static/js/2.4a74ac10.chunk.js",
+    "static/js/2.8723c906.chunk.js",
     "static/css/main.c3dfdc3f.chunk.css",
-    "static/js/main.01d81c0b.chunk.js"
+    "static/js/main.7ed670a3.chunk.js"
   ]
 }
